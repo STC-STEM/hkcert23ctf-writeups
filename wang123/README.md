@@ -8,7 +8,7 @@ his Github profile: https://github.com/ABChaha <br/>
 
 we solved it by moving tiles manually 🥲🥲🥲
 
-checkout https://github.com/STC-STEM/hkcert23ctf-writeups/tree/main/wang123/wang123.pdf for more information
+download the writeup pdf from https://github.com/STC-STEM/hkcert23ctf-writeups/raw/main/wang123/wang123.pdf for more information
 
 the images seem blurred, maybe we will replace them with clearer one later
 
