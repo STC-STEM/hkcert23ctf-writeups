@@ -173,6 +173,11 @@ function retrievePublicNotesOrderByPassword() {
 paste the above function into `console` of your browser <br/>
 and paste the below button into `elements` to make things easier 
 
+
+```html
+<button onclick="retrievePublicNotesOrderByPassword()">Order by password</button>
+```
+
 <details>
 <summary>screenshot</summary>
 
@@ -180,16 +185,14 @@ and paste the below button into `elements` to make things easier
 
 </details>
 
-
-```html
-<button onclick="retrievePublicNotesOrderByPassword()">Order by password</button>
-```
-
 signup two accounts called `0000000000000000` and `9999999999999999` with their `passwords` same as their username
 
 after pressing `Order by password` <br/>
 we can see that the position of `Administrator` is between them <br/>
 so the password of `Administrator` must be greater than `0000000000000000` but less than `9999999999999999`
+
+so, by signing up accounts and locating the interval where `Administrator` drops in <br/>
+we can determine the exact password of `Administrator`
 
 <details>
 <summary>screenshot</summary>
@@ -219,7 +222,7 @@ lastly, we get the following order in public notes
 from this order, we can tell that the password of `Administrator` could be either `0557192864287806` or `0557192864287807` (possibly the one with larger value) <br/>
 in my case, it is `0557192864287807` (may be different from yours)
 
-login with username `Administrator` and passowrd you gained <br/>
+login with username `Administrator` and the password you gained <br/>
 click `Retrieve Secret Notes` <br/>
 you will get the flag
 
