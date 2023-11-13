@@ -28,6 +28,7 @@ https://github.com/icsharpcode/ILSpy
 
 - 壓縮為 zip 檔案
 - 使用 RC4 加密
+- 使用 base64 編碼
 - 將結果的 + 替換成 -
 - 將結果的 / 替換成 _
 - 去除所有 =
