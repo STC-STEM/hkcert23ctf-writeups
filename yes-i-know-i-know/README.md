@@ -1,3 +1,5 @@
+# Yes, I Know I Know
+
 依照這裏的指示：https://hackmd.io/@blackb6a/hkcert-ctf-2023-i-en-a58d115f39feab46#%E6%94%B6%E5%88%B0%E6%94%B6%E5%88%B0--yes-I-know-I-know-Forensic
 
 搜索 `DNS` 相關的數據 `dns && ip.dst == 192.168.135.135 && udp.dstport == 53`
